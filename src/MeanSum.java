@@ -41,7 +41,7 @@ public class MeanSum {
 
     // iterates through the array to compute the total sum
     public void printArray() {
-        System.out.print("Array values: ");
+        System.out.println("Values in the array:");
         for (int i = 0; i < numbers.length; i++) {
             sum += numbers[i];
         }
