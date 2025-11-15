@@ -10,7 +10,7 @@ public class MeanSumAPP {
 
         // output
         ms.printArray();
-        System.out.println("Sum of array: " + ms.getSum());
-        System.out.println("Mean of array: " + ms.getMean());
+        System.out.println("Total sum of all elements: " + ms.getSum());
+        System.out.println("Average (mean) value: " + ms.getMean());
     }
 }
