@@ -14,6 +14,7 @@ public class MeanSum {
     public MeanSum() {
         // default values
         numbers = new int[]{2, 4, 6, 8};
+        
         sum = 0;
         mean = 0.0;
     }
@@ -39,9 +40,9 @@ public class MeanSum {
         return mean;
     }
 
-    // loop through the array to compute the total sum
+    // iterates through the array to compute the total sum
     public void printArray() {
-        System.out.print("Array values: ");
+        System.out.println("Values in the array:");
         for (int i = 0; i < numbers.length; i++) {
             sum += numbers[i];
         }
