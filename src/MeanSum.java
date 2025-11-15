@@ -14,6 +14,7 @@ public class MeanSum {
     public MeanSum() {
         // default values
         numbers = new int[]{2, 4, 6, 8};
+        
         sum = 0;
         mean = 0.0;
     }
