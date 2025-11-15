@@ -39,11 +39,11 @@ public class MeanSum {
         return mean;
     }
 
-    // utility method to print the array
+    // loop through the array to compute the total sum
     public void printArray() {
         System.out.print("Array values: ");
         for (int i = 0; i < numbers.length; i++) {
-            System.out.print(numbers[i] + " ");
+            sum += numbers[i];
         }
         System.out.println();
     }
